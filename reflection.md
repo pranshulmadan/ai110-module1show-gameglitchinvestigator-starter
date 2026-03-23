@@ -48,11 +48,21 @@ AI helped me understand the tests by helping me find the exact error in the code
 
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
 
+Streamlit reruns mean that every time you click a button or change something, the app runs the code again from top to bottom. Session state is like the app’s memory, because it saves important values so they do not disappear during those reruns. I would explain it to a friend by saying reruns refresh the app, while session state helps it remember things like score, attempts, or previous choices.
+
 ---
 
 ## 5. Looking ahead: your developer habits
 
 - What is one habit or strategy from this project that you want to reuse in future labs or projects?
+
+One habit I want to reuse in future projects is testing my code after every fix to make sure the problem is actually solved. This project showed me that running the program and checking each bug step by step helps catch mistakes quickly. I also want to keep using AI as a helper for finding errors and suggesting changes, while still verifying the code myself.
+
   - This could be a testing habit, a prompting strategy, or a way you used Git.
 - What is one thing you would do differently next time you work with AI on a coding task?
+
+One thing I would do differently next time is ask AI more specific questions about each bug instead of trying to fix everything at once. That would help me understand the problem more clearly and make the fixes faster. 
+
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+
+This project changed the way I think about AI-generated code because I learned that it can be helpful for finding errors and suggesting fixes, but I still need to test and verify everything myself. It showed me that AI is a useful tool for support, not something I should trust completely without checking the code.
